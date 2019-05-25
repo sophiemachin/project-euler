@@ -1,7 +1,8 @@
 //
 //  main.cpp
 //  Euler problem 1
-//  If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+//  If we list all the natural numbers below 10 that are multiples of 3 or 5, 
+// we get 3, 5, 6 and 9. The sum of these multiples is 23.
 //  Find the sum of all the multiples of 3 or 5 below 1000.
 //
 //  Created by Sophie Machin on 05/01/2015.
@@ -20,7 +21,7 @@ int main()
     int  l = 0; //current term
     int  total = 0;
     
-    // arbitrarily choose for-loop to be 10,000 to catch all terms under 4 million
+    //  choose for-loop to be 10,000 to catch all terms under 4 million
     for(i=0; i<10000; i++) 
     {
         l = j + k;
